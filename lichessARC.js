@@ -25,11 +25,4 @@ function initWhenContainerLoaded() {
   }
 }
 
-oldOnload = window.onload;
-window.onload = function() {
-  if (typeof(oldOnload) == 'function') {
-    oldOnload();
-  }
-
-  initWhenContainerLoaded();
-}
+initWhenContainerLoaded();

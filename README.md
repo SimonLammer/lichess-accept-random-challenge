@@ -2,4 +2,8 @@
 
 This webextension adds the ability to accept random challenges on [lichess](lichess.org).
 
-![](lichessARC.png)
+![](pictures/lichessARC.png)
+
+## Availability
+
+[![](pictures/firefox.png)](https://addons.mozilla.org/en-US/firefox/addon/lichessarc/)

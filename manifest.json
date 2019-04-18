@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "LichessARC",
   "description" : "Allows accepting a random challenge on Lichess.org",
-  "version": "1.0",
+  "version": "1.1",
   "homepage_url": "https://github.com/SimonLammer/lichess-accept-random-challenge",
 
   "icons": {

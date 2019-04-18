@@ -31,6 +31,5 @@ window.onload = function() {
     oldOnload();
   }
 
-  console.log("onload");
   initWhenContainerLoaded();
 }

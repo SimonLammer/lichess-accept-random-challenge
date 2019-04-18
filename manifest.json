@@ -3,6 +3,13 @@
   "name": "LichessARC",
   "description" : "Allows accepting a random challenge on Lichess.org",
   "version": "1.0",
+  "homepage_url": "https://github.com/SimonLammer/lichess-accept-random-challenge",
+
+  "icons": {
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+
   "content_scripts": [
     {
       "matches": ["*://*.lichess.org/*", "*://lichess.org/*"],

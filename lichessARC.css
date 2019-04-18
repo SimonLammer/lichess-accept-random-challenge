@@ -1,6 +1,7 @@
 #lichess-arc {
-  padding:5px;
-  border-radius:2px;
-  background-color:#759900;
-  color:#fff;
+  padding: 5px;
+  border-radius: 2px;
+  background-color: #759900;
+  color: #fff;
+  cursor: pointer;
 }

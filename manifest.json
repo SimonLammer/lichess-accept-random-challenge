@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "LichessARC",
+  "description" : "Allows accepting a random challenge on Lichess.org",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["*://*.lichess.org/*", "*://lichess.org/*"],
+      "js": ["lichessARC.js"],
+      "css": ["lichessARC.css"]
+    }
+  ]
+}

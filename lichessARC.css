@@ -1,7 +1,34 @@
 #lichess-arc {
   padding: 5px;
   border-radius: 2px;
-  background-color: #759900;
+  background-color: #607e00;
   color: #fff;
   cursor: pointer;
+}
+
+#lichess-arc-settings {
+  float: right;
+  margin-right: 5px;
+  padding: 0px 2px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+#lichess-arc:hover {
+  background-color: #759900;
+}
+
+#lichess-arc-settings:hover {
+  background-color: #a2d300;
+}
+
+#lichess-arc-settings-dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.35;
 }

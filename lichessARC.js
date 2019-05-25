@@ -11,12 +11,12 @@ function init(container) {
   container.prepend(div);
 }
 function loadContainer() {
-  e = document.getElementById('challenge_notifications_tag');
+  e = document.getElementById('challenge-toggle');
   e.click(); // open challanges menu
   e.click(); // close challanges menu
 }
 function initWhenContainerLoaded() {
-  var container = document.getElementById("challenge_app");
+  var container = document.getElementById("challenge-app");
   if (container.className.indexOf("rendered") > 0) {
     init(container);
   } else {

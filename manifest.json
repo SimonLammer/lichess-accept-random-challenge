@@ -11,11 +11,21 @@
     "128": "icons/128.png"
   },
 
+  "permissions": ["storage"],
+
   "content_scripts": [
     {
       "matches": ["*://*.lichess.org/*", "*://lichess.org/*"],
       "js": ["lichessARC.js"],
       "css": ["lichessARC.css"]
     }
-  ]
+  ],
+
+  "browser_action": {
+    "default_icon": {
+      "48": "icons/48.png"
+    },
+    "default_title": "LichessARC",
+    "default_popup": "lichessARC-settings.html"
+  }
 }

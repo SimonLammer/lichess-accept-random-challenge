@@ -3,7 +3,7 @@
   "name": "LichessARC",
   "author": "Simon Lammer",
   "description" : "Allows accepting a random challenge on Lichess.org",
-  "version": "1.2",
+  "version": "1.3",
   "homepage_url": "https://github.com/SimonLammer/lichess-accept-random-challenge",
 
   "icons": {

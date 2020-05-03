@@ -2,7 +2,12 @@
 
 This webextension adds the ability to accept random challenges on [lichess](lichess.org).
 
+
 ![](pictures/lichessARC.png)
+
+
+> Love this extension! It saves me from the painstaking task of asking Siri for a random number and then tediously counting through an absurd number of challengers in order to arrive at a random opponent. Now, it's just one click! Life is good.
+\- International Master Eric Rosen
 
 ## Availability
 
